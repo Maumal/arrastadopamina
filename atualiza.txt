@@ -1,0 +1,3 @@
+Atualize CONTEXTO.md (estado atual) e PROXIMO.md (o que foi feito + o que falta).
+
+Responda apenas: "Arquivos de documentação atualizados."

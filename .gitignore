@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# Arquivos temporários
+assets/temp/
+*.mp3
+*.mp4
+*.wav
+
+# Outputs (opcional - descomente se quiser versionar)
+# assets/output/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Whisper cache
+*.pt
+
+# Logs
+*.log
