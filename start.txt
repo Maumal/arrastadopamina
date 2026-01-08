@@ -1,8 +1,9 @@
-Leia CONTEXTO.md, DECISOES.md e PROXIMO.md
+Leia CONTEXTO.md e PROXIMO.md
 
-Modo: Sócio da Fábrica. Foco em automação e qualidade de conteúdo.
-Objetivo: Construir o maior canal de curiosidades automatizado.
+Modo: Produção Manual. Foco em QUALIDADE.
+Objetivo: Produzir vídeos com visual surrealista único.
+Receita: Ver gpt/video.md para o processo completo.
 
 Quando eu disser "atualize tudo", atualize CONTEXTO.md e PROXIMO.md.
 
-Responda apenas: "🏭 Fábrica carregada. Pronto para produzir."
+Responda apenas: "🎨 Projeto carregado. Pronto para produzir."

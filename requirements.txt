@@ -1,8 +1,0 @@
-moviepy
-edge-tts
-requests
-python-dotenv
-google-generativeai
-openai-whisper
-torch --index-url https://download.pytorch.org/whl/cpu
-

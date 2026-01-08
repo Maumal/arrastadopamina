@@ -1,9 +1,0 @@
-Vamos parar por aqui. Atualize todos os arquivos para a próxima sessão:
-
-1. CONTEXTO.md
-2. DECISOES.md
-3. PROXIMO.md
-
-Depois, me lembre de fazer commit.
-
-Responda apenas: "Sessão encerrada. Docs prontos."

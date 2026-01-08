@@ -1,17 +1,17 @@
 # 📋 CONTEXTO - Arrastadopamina
 
 > **Cole este arquivo no início de novos chats.**
-> **Última atualização:** 2026-01-06 21:09
-> **Status:** 🏭 Fábrica Operacional (MVP v1.2)
+> **Última atualização:** 2026-01-07 21:45
+> **Status:** 🎯 Foco em Qualidade Manual
 
 ---
 
 ## 🎯 VISÃO GERAL
 
-**Projeto:** Fábrica de Vídeos com IA (Arrastadopamina)
-**O que faz:** Criação automatizada de vídeos verticais (Shorts/TikTok) com curiosidades.
-**Estilo:** "Superinteressante infinita" (Curioso, claro, instigante, viral).
-**Pipeline:** Roteiro (Manual ou IA) -> TTS -> Whisper -> Pexels -> MoviePy -> Vídeo Final.
+**Projeto:** Vídeos curtos sobre psicologia do dinheiro
+**Formato:** Shorts/TikTok/Reels (~45 segundos)
+**Estilo visual:** Surrealismo Salvador Dalí
+**Diferencial:** Visual artístico único + narração natural
 
 **Links:**
 - 📺 YouTube: https://www.youtube.com/@arrastadopamina
@@ -24,49 +24,36 @@
 
 ```
 arrastadopamina/
-├── start.txt / parar.txt / atualiza.txt  # Controle de sessão
-├── CONTEXTO.md / DECISOES.md / PROXIMO.md
-├── superinteressante.txt        # Prompt de viralização
-├── src/
-│   ├── main.py         # Orquestrador (modo híbrido)
-│   ├── roteiro.py      # Gemini 2.0 Flash
-│   ├── audio.py        # EdgeTTS (vozes alternadas)
-│   ├── visual.py       # Pexels + fallbacks
-│   ├── legenda.py      # Whisper small
-│   └── edicao.py       # MoviePy + música
-├── assets/
-│   ├── roteiros/       # JSONs manuais (modo premium)
-│   ├── music/          # Lo-fi background
-│   ├── temp/           # Arquivos temporários
-│   └── output/         # Vídeos finais
+├── start.txt                    # Instruções iniciais
+├── CONTEXTO.md / PROXIMO.md     # Estado do projeto
+├── gpt/
+│   └── video.md                 # Receita completa (6 fases)
+├── assets/roteiros/
+│   ├── lista-roteiros.md        # Temas disponíveis
+│   └── prompt_gerar_roteiro_v2.txt  # Prompt para GPT
+└── workflow/                    # Passo a passo de produção
 ```
 
 ---
 
-## 📊 ESTADO ATUAL
+## 🛠️ STACK DE FERRAMENTAS
 
-### ✅ Funcionando (MVP v1.2)
-- **Roteiro:** Gemini 2.0 Flash OU JSON manual (modo híbrido)
-- **Áudio:** EdgeTTS com vozes alternadas (Francisca/Antonio)
-- **Legendas:** Whisper `small` (melhor precisão PT-BR)
-- **Visual:** Pexels API com fallbacks automáticos
-- **Edição:** MoviePy + música lo-fi de fundo (8% volume)
-
-### 🔵 Próximos Passos
-- Múltiplos clipes por vídeo (trocar a cada parágrafo)
-- Legendas semânticas (agrupar por frases, não palavras)
+| Função | Ferramenta |
+|--------|-----------|
+| Roteiro + Cenas | GPT-4 |
+| Fact-check | Perplexity |
+| Narração | GPT/Perplexity (voz no celular) |
+| Imagens | GPT/DALL-E |
+| Edição | Kdenlive |
 
 ---
 
-## 🛠️ COMO USAR
+## 🔄 WORKFLOW (~45 min/vídeo)
 
-### Modo Automático (Gemini)
-```bash
-source .venv/bin/activate
-python src/main.py
-```
-
-### Modo Premium (IA do Navegador)
-1. Gere roteiro no Claude/GPT/Gemini
-2. Salve em `assets/roteiros/meu_roteiro.json`
-3. Rode `python src/main.py`
+1. **Definir** tema + emoção + fonte (gpt/video.md)
+2. **Gerar** roteiro + 6 cenas surrealistas (GPT)
+3. **Verificar** fonte científica (Perplexity)
+4. **Narrar** pelo celular (GPT/Perplexity voz)
+5. **Gerar** 6 imagens (DALL-E)
+6. **Editar** Kdenlive (Ken Burns + legenda)
+7. **Publicar** Shorts + TikTok + Reels
