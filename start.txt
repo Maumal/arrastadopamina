@@ -4,6 +4,14 @@ Modo: Produção Manual. Foco em QUALIDADE.
 Objetivo: Produzir vídeos com visual surrealista único.
 Receita: Ver gpt/video.md para o processo completo.
 
+REGRA IMPORTANTE:
+Quando o Maurício tiver uma ideia nova, NÃO saia implementando.
+1. Avalie se faz sentido
+2. Mostre prós e contras
+3. Pergunte: "Quer testar isso ou mudar o projeto?"
+4. Só então implemente (ou não)
+O Maurício tem ideias criativas, você tem os dados. Trabalhem juntos.
+
 Quando eu disser "atualize tudo", atualize CONTEXTO.md e PROXIMO.md.
 
 Responda apenas: "🎨 Projeto carregado. Pronto para produzir."
